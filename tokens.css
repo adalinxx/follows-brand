@@ -1,0 +1,74 @@
+/* Follows — generated from tokens.json by source/tokens.py */
+@font-face { font-family: "Schibsted Grotesk"; font-weight: 400 900; font-style: normal; font-display: swap; src: url(./fonts/schibsted-grotesk-latin.woff2) format("woff2"); }
+@font-face { font-family: "JetBrains Mono"; font-weight: 400; font-style: normal; font-display: swap; src: url(./fonts/jetbrains-mono-400.woff2) format("woff2"); }
+:root {
+  --bg: #ffffff;
+  --soft: #f4f5f7;
+  --line: #e6e7eb;
+  --ink: #16181d;
+  --muted: #5f6470;
+  --accent: #3346d3;
+  --accent-ink: #1f2da0;
+  --on-accent: #ffffff;
+  --avatar: #e3e6f8;
+  --avatar-ink: #3346d3;
+  --highlight: #f5b335;
+  --on-highlight: #16181d;
+  --highlight-ink: #8a5b00;
+  --focus: var(--accent);
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-7: 28px;
+  --radius-control: 8px;
+  --radius-tile: 22%;
+  --radius-round: 50%;
+  --min-lockup: 88px;
+  --min-stacked: 56px;
+  --min-wordmark: 64px;
+  --min-mark: 20px;
+  --min-tile: 16px;
+  --font-sans: "Schibsted Grotesk", system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+    --bg: #121418;
+    --soft: #1c1f24;
+    --line: #2c2f36;
+    --ink: #ecedf0;
+    --muted: #a3a8b3;
+    --accent: #8d9bff;
+    --accent-ink: #b4beff;
+    --on-accent: #121418;
+    --avatar: #262b45;
+    --avatar-ink: #b4beff;
+    --on-highlight: #121418;
+    --highlight-ink: #f5b335;
+    color-scheme: dark;
+} }
+:root[data-theme="dark"] {
+  --bg: #121418;
+  --soft: #1c1f24;
+  --line: #2c2f36;
+  --ink: #ecedf0;
+  --muted: #a3a8b3;
+  --accent: #8d9bff;
+  --accent-ink: #b4beff;
+  --on-accent: #121418;
+  --avatar: #262b45;
+  --avatar-ink: #b4beff;
+  --on-highlight: #121418;
+  --highlight-ink: #f5b335;
+  color-scheme: dark;
+}
+.wordmark { font-family: var(--font-sans); font-size: 19px; line-height: 1.2; font-weight: 800; }
+.display { font-family: var(--font-sans); font-size: 32px; line-height: 1.15; font-weight: 700; }
+.title { font-family: var(--font-sans); font-size: 26px; line-height: 1.2; font-weight: 700; }
+.heading { font-family: var(--font-sans); font-size: 22px; line-height: 1.25; font-weight: 700; }
+.body { font-family: var(--font-sans); font-size: 16px; line-height: 1.45; font-weight: 400; }
+.button { font-family: var(--font-sans); font-size: 16px; line-height: 1.25; font-weight: 600; }
+.label { font-family: var(--font-sans); font-size: 15px; line-height: 1.35; font-weight: 700; }
+.small { font-family: var(--font-sans); font-size: 14px; line-height: 1.4; font-weight: 400; }
+.caption { font-family: var(--font-sans); font-size: 13.6px; line-height: 1.35; font-weight: 400; }
+.address { font-family: var(--font-mono); font-size: 14px; line-height: 1.4; font-weight: 400; }
