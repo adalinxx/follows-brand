@@ -24,7 +24,7 @@ Load with `font-display: swap`. The fallbacks are the platform UI faces, which a
 
 | Style | Face | Size / line height | Weight | Case | Use |
 |---|---|---|---|---|---|
-| `display` | Sans | 32 / 1.15 (26 under 520px) | 700 | Sentence case | One per page: the home headline. |
+| `display` | Sans | 52 / 1.04 (32 under 860px) | 800, tracked −1% | Sentence case | One per site: the front page's headline. |
 | `title` | Sans | 26 / 1.2 | 700 | As written (`@ada`, `…ada4`) | A person's page. |
 | `heading` | Sans | 22 / 1.25 | 700 | Sentence case | A list's title: "Followers of @ada". |
 | `wordmark` | Sans | 19 / 1.2 | 800 | Title case: "Follows" | The name as live text in a header. Elsewhere use the outlined wordmark. |
